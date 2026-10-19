@@ -1,0 +1,19 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer benchmark (scikit-learn)",
+  "task": "binary classification",
+  "train_rows": 455,
+  "test_rows": 114,
+  "accuracy": 0.9824561403508771,
+  "roc_auc": 0.9953703703703703,
+  "confusion_matrix": [
+    [
+      41,
+      1
+    ],
+    [
+      1,
+      71
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.98      0.98      0.98        42\n      benign       0.99      0.99      0.99        72\n\n    accuracy                           0.98       114\n   macro avg       0.98      0.98      0.98       114\nweighted avg       0.98      0.98      0.98       114\n"
+}
